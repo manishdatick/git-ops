@@ -1,0 +1,11 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: flux-repo
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  url: "REPLACE_WITH_YOUR_REPO_URL"
+  branch: main
+  secretRef:
+    name: flux-system

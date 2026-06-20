@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FluxCD GitOps Repository
 
 This repository contains a minimal FluxCD layout for bootstrapping Flux into an AKS cluster
@@ -16,3 +17,6 @@ flux bootstrap git \
 ```
 
 After bootstrapping, Flux will sync the `flux-system` resources and then the `apps` directory.
+=======
+# git-ops
+>>>>>>> origin/main

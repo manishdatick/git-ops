@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  url: "REPLACE_WITH_YOUR_REPO_URL"
+  url: "https://github.com/manishdatick/git-ops.git"
   branch: main
   secretRef:
     name: flux-system
